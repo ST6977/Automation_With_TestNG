@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Dailyfinance Automation">
+    <test name="cost management">
+
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestRunner.CostManagementRunner">
+
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
