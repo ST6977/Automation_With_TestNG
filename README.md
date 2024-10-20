@@ -29,5 +29,16 @@ The following key modules/pages are automated:
 
 ### Run The Automation Script by the following Command
 gradle clean test 
+- Selenium will open the browser and start automating.
+- After automation to view allure report , give the following commands:
 
-is AutomatedRegression Suite Run Recorded Video - [Video](https://screenrec.com/share/MfwIolKnQg)
+allure generate allure-results --clean -o allure-report
+allure serve allure-results
+
+- Below is my allure overview report:
+ ![final-allure-1](https://github.com/user-attachments/assets/52db33d2-938b-4be5-b6c7-033d6b2920d6)
+
+Here are the suites of this project:
+![final-allure-2](https://github.com/user-attachments/assets/8722c708-4eb5-48c0-8be3-b1b2f721dd5b)
+
+Here is the overall walkthrough of the project - [Video](https://screenrec.com/share/MfwIolKnQg)
